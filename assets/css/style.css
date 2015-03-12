@@ -1,5 +1,6 @@
 * { padding: 0; margin: 0; }
 p { font-family: 'sans serif'; }
+code { color: #fff; }
 /* Header */
 .main-header { height: 300px; width: 100%; background: #101726; position: relative; }
 .main-header h1 { font-family: 'Orbitron', arial; text-align: center; font-size: 60px; line-height: 300px; color: #fff; }
@@ -10,7 +11,7 @@ p { font-family: 'sans serif'; }
 .main-example { height: auto; background: #fff; padding-top: 50px; }
 .main-example h2 { font-family: 'Orbitron'; text-align: center; font-size: 48px; color: #101726; margin-bottom: 50px; }
 /* Guide */
-.main-guide { height: 500px; width: 100%; overflow: hidden; }
+.main-guide { height: 600px; width: 100%; overflow: hidden; }
 .main-guide h2 { font-family: 'Orbitron'; text-align: center; font-size: 48px; color: #101726; margin: 50px 0 50px 0; }
 .main-guide-list { background: #8cc3f2; height: auto; width: 500px; padding: 10px; margin: 0 auto 10px auto; }
 .main-guide-list p { color: #101726; }

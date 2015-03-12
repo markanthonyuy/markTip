@@ -15,13 +15,17 @@ Options
 -------
 You can set options in two different ways
 
-```<span class="marktip" data-marktip-title="Hello!" data-marktip-position="top">Hover me</span> ```
+```html
+<span class="marktip" data-marktip-title="Hello!" data-marktip-position="top">
+  Hover me
+</span>
+```
 
 or
 
 ~~~ js
 $('.marktip').markTip({ 
-  position: 'bottom'
+  position: 'top'
 });
 ~~~
 

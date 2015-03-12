@@ -3,12 +3,13 @@ markTip
 
 A very simple jquery tooltip plugin.
 
-4 Steps Guide
+5 Steps Guide
 -------------
 1. Include jquery.js and ```<script src="marktip.js"></script>```
 2. add marktip class ```<span class="marktip">Hover me<span>```
-3. Set options using data attribute `data-marktip-position`
-4. Initialize markTip `$('.marktip').markTip()`
+3. add tooltip text ```data-marktip-title="Hello"```
+4. Set options using data attribute ```data-marktip-position="top"```
+5. Initialize markTip `$('.marktip').markTip()`
 
 Options
 -------

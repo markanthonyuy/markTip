@@ -1,0 +1,31 @@
+* { padding: 0; margin: 0; }
+p { font-family: 'sans serif'; }
+/* Header */
+.main-header { height: 300px; width: 100%; background: #101726; position: relative; }
+.main-header h1 { font-family: 'Orbitron', arial; text-align: center; font-size: 60px; line-height: 300px; color: #fff; }
+.sub-header-position { position: absolute; top: 62%; left: 50%; margin-left: -175px; }
+.sub-header-design { color: #8cc3f2; font-family: 'sans serif'; font-size: 20px; }
+.center { text-align: center; margin-bottom: 50px; }
+/* Example */
+.main-example { height: auto; background: #fff; padding-top: 50px; }
+.main-example h2 { font-family: 'Orbitron'; text-align: center; font-size: 48px; color: #101726; margin-bottom: 50px; }
+/* Guide */
+.main-guide { height: 500px; width: 100%; overflow: hidden; }
+.main-guide h2 { font-family: 'Orbitron'; text-align: center; font-size: 48px; color: #101726; margin: 50px 0 50px 0; }
+.main-guide-list { background: #8cc3f2; height: auto; width: 500px; padding: 10px; margin: 0 auto 10px auto; }
+.main-guide-list p { color: #101726; }
+.main-guide-button-wrap { text-align: center; margin-top: 100px; }
+.main-guide-button, .main-download-button { width: 300px; height: 50px; line-height: 50px; display: inline-block; background: #101726; text-decoration: none; color: #fff; font-family: 'Orbitron'; font-size: 20px; }
+/* Changelog */
+.main-changelog { height: 300px; width: 100%; overflow: hidden; }
+.main-changelog h2 { font-family: 'Orbitron'; text-align: center; font-size: 48px; color: #101726; margin: 50px 0 50px 0; }
+.main-changelog h3 { font-family: 'sans serif'; text-align: center; font-size: 18px; color: #101726; margin-bottom: 10px; }
+.main-changelog p { text-align: left; background: #8cc3f2; height: auto; width: 300px; padding: 10px; margin: 0 auto 10px auto; color: #101726; text-align: center; }
+/* Download */
+.main-download { height: 300px; width: 100%; overflow: hidden; }
+.main-download p { line-height: 300px; text-align: center; }
+/* Footer */
+.main-footer { height: 100px; width: 100%; background: #8cc3f2; color: #101726; font-family: 'sans serif'; }
+.main-footer-wrap { text-align: center; }
+.line-separator { width: 80%; margin-left: 10%; height: 1px; background: #8cc3f2; border-bottom: 1px solid #101726; text-align: center; }
+.attribution { line-height: 100px; }

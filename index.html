@@ -1,0 +1,71 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Marktip.js</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Orbitron:400,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+  <body>
+    <header class="main-header">
+      <h1>markTip.js</h1>
+      <p class="sub-header-position sub-header-design">A very simple jquery tooltip plugin.</p>
+    </header>
+    <section class="main-example">
+      <div class="main-example-fixed-true">
+        <h2>Examples</h2>
+        <p class="center"><span class="marktip" data-marktip-title="Hello! I'm positioned Top." data-marktip-position="top">Hover me: Top</span></p>
+        <p class="center"><span class="marktip" data-marktip-title="Hello! I'm positioned Right." data-marktip-position="right">Hover me: Right</span></p>
+        <p class="center"><span class="marktip" data-marktip-title="Hello! I'm positioned Bottom." data-marktip-position="bottom">Hover me: Bottom</span></p>
+        <p class="center"><span class="marktip" data-marktip-title="Hello! I'm positioned Left." data-marktip-position="left">Hover me: Left</span></p>
+      </div>
+    </section>
+    <p class="line-separator"></p>
+    <section class="main-guide">
+      <h2>3 Steps Guide</h2>
+      <div class="main-guide-list">
+        <p>1. Include jquery.js and marktip.js</p>
+      </div>
+      <div class="main-guide-list">
+        <p>2. Set options using data attribute <code>data-marktip-position</code></p>
+      </div>
+      <div class="main-guide-list">
+        <p>3. Initialize markTip <code>$('.marktip').markTip()</code></p>
+      </div>
+      <p class="main-guide-button-wrap"><a href="#" class="main-guide-button">Read Documentation</a></p>
+    </section>
+    <p class="line-separator"></p>
+    <section class="main-changelog">
+      <h2>Changelog</h2>
+      <div class="main-changelog-list">
+        <h3>Version 0.1.0</h3>
+        <p>Initial features</p>
+      </div>
+    </section>
+    <p class="line-separator"></p>
+    <section class="main-download">
+      <p class="main-download-button-wrap"><a href="#" class="main-download-button">Download Now</a></p>
+    </section>
+    <footer class="main-footer">
+      <section class="main-footer-wrap">
+        <div class="attribution">&lt;/&gt; with &lt;3 by <a href="https://twitter.com/markanthonyuy">Mark Anthony Uy</a></div>
+      </section>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script src="assets/js/marktip.js"></script>
+    <script>
+      $(function() {
+        $('.marktip').markTip({ 
+          fixed: true, 
+          offset: 10, 
+          direction: 'bottom', 
+          padding: 10, 
+          fadeEffect: false 
+        });
+      });
+    </script>
+  </body>
+</html>

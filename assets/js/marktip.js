@@ -97,7 +97,7 @@
 				textColor: '#fff',
 				fixed: false,
 				fadeEffect: false,
-				direction: 'right',
+				position: 'right',
 				padding: 5,
 				offset: 5,
 				fontFamily: 'sans serif'
@@ -142,7 +142,7 @@
 							pos = initPositioning(marktipDataAttr['marktipPosition'], $offset, parentOffset, $self);
 						} else {
 							// Options passed Works on all .marktip
-							pos = initPositioning(options.direction, $offset, parentOffset, $self);
+							pos = initPositioning(options.position, $offset, parentOffset, $self);
 						}
 
 						// Applying css position

@@ -3,9 +3,6 @@ markTip
 
 A very simple jquery tooltip plugin.
 
-5 Steps Guide
--------------
-
 Dependency
 ----------
 jQuery 1.8+

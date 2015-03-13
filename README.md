@@ -5,6 +5,13 @@ A very simple jquery tooltip plugin.
 
 5 Steps Guide
 -------------
+
+Dependency
+----------
+jQuery 1.8+
+
+5 Steps Guide
+-------------
 1. Include jquery.js and ```<script src="marktip.js"></script>```
 2. add marktip class ```<span class="marktip">Hover me<span>```
 3. add tooltip text ```data-marktip-title="Hello"```

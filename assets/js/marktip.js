@@ -99,8 +99,7 @@
 				fadeEffect: false,
 				position: 'right',
 				padding: 5,
-				offset: 5,
-				fontFamily: 'sans serif'
+				offset: 5
 			};
 
 			options = $.extend(defaultOptions, options); // merge defaultOptions to options

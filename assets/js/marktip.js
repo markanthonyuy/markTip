@@ -91,7 +91,7 @@
 
 		return this.each(function() {
 
-			// Customizable
+			// Customizable by passing options object
 			var defaultOptions = {
 				backgroundColor: '#8cc3f2',
 				textColor: '#fff',
